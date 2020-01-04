@@ -15,3 +15,4 @@ playground
 * Calc.TTG: Trees That Growを利用して数式のデータ型を定義する
 * UserData.Types: 文字列、数値、他のデータ型などを絡めたレコードの例
 * Pitfall: 落とし穴
+* Generics.FieldName: レコードのフィールド名をまとめてHKDとして取得する

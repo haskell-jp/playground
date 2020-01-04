@@ -17,7 +17,11 @@ maintainer:          Haskell-jp
 extra-source-files:  CHANGELOG.md, README.md
 
 library
-  exposed-modules:     Pitfall, Calc.Base, UserData.Types
+  exposed-modules:     Pitfall
+    , Calc.Base
+    , Calc.TTG
+    , UserData.Types
+    , Generics.FieldName
   -- other-modules:
   -- other-extensions:
   ghc-options: -Wall
