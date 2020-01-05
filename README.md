@@ -16,3 +16,10 @@ playground
 * UserData.Types: 文字列、数値、他のデータ型などを絡めたレコードの例
 * Pitfall: 落とし穴
 * Generics.FieldName: レコードのフィールド名をまとめてHKDとして取得する
+* Extension.DerivingVia: `DerivingVia`拡張の例
+
+コントリビューション
+----
+
+Pull requestもしくは、権限がある方は直接pushしてもかまいません。
+「こんな例が欲しい」といったリクエストも歓迎です。
