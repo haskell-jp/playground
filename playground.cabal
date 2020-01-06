@@ -22,8 +22,10 @@ library
     , Calc.TTG
     , UserData.Types
     , Generics.FieldName
+    , Crypto.SSH.PubKey
   -- other-modules:
   -- other-extensions:
   ghc-options: -Wall
   build-depends:       base, text, aeson, bytestring, double-conversion
+                     , memory, cryptonite
   default-language:    Haskell2010
