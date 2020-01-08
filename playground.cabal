@@ -23,6 +23,7 @@ library
     , UserData.Types
     , Generics.FieldName
     , Crypto.SSH.PubKey
+    , Strictness.Fold
   -- other-modules:
   -- other-extensions:
   ghc-options: -Wall
