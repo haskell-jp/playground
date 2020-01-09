@@ -24,9 +24,28 @@ library
     , Generics.FieldName
     , Crypto.SSH.PubKey
     , Strictness.Fold
+    , Streaming.Experimental.Feeder
+    , Streaming.Experimental.Predator
   -- other-modules:
   -- other-extensions:
   ghc-options: -Wall
-  build-depends:       base, text, aeson, bytestring, double-conversion
-                     , memory, cryptonite
+  build-depends: base
+    , text
+    , aeson
+    , bytestring
+    , double-conversion
+    , memory
+    , cryptonite
+    , transformers
+    , mtl
+    , monad-skeleton
   default-language:    Haskell2010
+
+benchmark benchmark
+  type:           exitcode-stdio-1.0
+  main-is:        benchmark.hs
+  ghc-options:    -O2
+  hs-source-dirs: benchmarks
+  build-depends: base, criterion, pipes, machines, conduit, conduit-combinators, feeders, iteratee, boombox, extensible
+  default-language:    Haskell2010
+  buildable: False
