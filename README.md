@@ -18,6 +18,7 @@ playground
 * Generics.FieldName: レコードのフィールド名をまとめてHKDとして取得する
 * Extension.DerivingVia: `DerivingVia`拡張の例
 * Streaming.Experimental: `drinkery`の前身であった試製ストリームライブラリ
+* `app/cbor-tool.hs`: CBORを色付きでプリティプリントする例
 
 コントリビューション
 ----

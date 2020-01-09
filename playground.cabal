@@ -49,3 +49,18 @@ benchmark benchmark
   build-depends: base, criterion, pipes, machines, conduit, conduit-combinators, feeders, iteratee, boombox, extensible
   default-language:    Haskell2010
   buildable: False
+
+executable cbor-tool
+  hs-source-dirs:      app
+  main-is:             cbor-tool.hs
+  ghc-options:         -Wall
+  build-depends:       base
+                     , cborg
+                     , time
+                     , text
+                     , bytestring
+                     , directory
+                     , lens
+                     , prettyprinter
+                     , prettyprinter-ansi-terminal
+  default-language:    Haskell2010
