@@ -11,15 +11,16 @@ playground
 コンテンツ
 ----
 
-* Calc.Base: 数式を代数的データ型で表す
-* Calc.TTG: Trees That Growを利用して数式のデータ型を定義する
-* UserData.Types: 文字列、数値、他のデータ型などを絡めたレコードの例
-* Pitfall: 落とし穴
-* Generics.FieldName: レコードのフィールド名をまとめてHKDとして取得する
-* Extension.DerivingVia: `DerivingVia`拡張の例(aeson)
-* Streaming.Experimental: `drinkery`の前身であった試製ストリームライブラリ
 * `app/cbor-tool.hs`: CBORを色付きでプリティプリントする例(cborg)
 * `app/harvester.hs`: parsers/trifectaとfoldlパッケージを使った、コマンドラインの簡易統計ツール
+* Calc.Base: 数式を代数的データ型で表す
+* Calc.TTG: Trees That Growを利用して数式のデータ型を定義する
+* Crypto.SSH.PubKey: SSH Public Key の fingerprint (MD5) を計算する関数
+* Extension.DerivingVia: `DerivingVia`拡張の例(aeson)
+* Generics.FieldName: レコードのフィールド名をまとめてHKDとして取得する
+* Pitfall: 落とし穴
+* Streaming.Experimental: `drinkery`の前身であった試製ストリームライブラリ
+* UserData.Types: 文字列、数値、他のデータ型などを絡めたレコードの例
 
 コントリビューション
 ----
