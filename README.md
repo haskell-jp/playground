@@ -16,10 +16,10 @@ playground
 * UserData.Types: 文字列、数値、他のデータ型などを絡めたレコードの例
 * Pitfall: 落とし穴
 * Generics.FieldName: レコードのフィールド名をまとめてHKDとして取得する
-* Extension.DerivingVia: `DerivingVia`拡張の例
+* Extension.DerivingVia: `DerivingVia`拡張の例(aeson)
 * Streaming.Experimental: `drinkery`の前身であった試製ストリームライブラリ
-* `app/cbor-tool.hs`: CBORを色付きでプリティプリントする例
-* `app/harvester.hs`: parsers/trifectaを使った、コマンドラインの簡易統計ツール
+* `app/cbor-tool.hs`: CBORを色付きでプリティプリントする例(cborg)
+* `app/harvester.hs`: parsers/trifectaとfoldlパッケージを使った、コマンドラインの簡易統計ツール
 
 コントリビューション
 ----
