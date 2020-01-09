@@ -19,6 +19,7 @@ playground
 * Extension.DerivingVia: `DerivingVia`拡張の例
 * Streaming.Experimental: `drinkery`の前身であった試製ストリームライブラリ
 * `app/cbor-tool.hs`: CBORを色付きでプリティプリントする例
+* `app/harvester.hs`: parsers/trifectaを使った、コマンドラインの簡易統計ツール
 
 コントリビューション
 ----

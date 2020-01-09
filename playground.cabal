@@ -64,3 +64,18 @@ executable cbor-tool
                      , prettyprinter
                      , prettyprinter-ansi-terminal
   default-language:    Haskell2010
+
+executable harvester
+  hs-source-dirs:      app
+  main-is:             harvester.hs
+  ghc-options:         -O2 -Wall
+  build-depends:       base
+    , prettyprinter
+    , prettyprinter-ansi-terminal
+    , trifecta
+    , foldl
+    , parsers
+    , containers
+    , comonad
+    , split
+  default-language:    Haskell2010
