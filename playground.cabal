@@ -26,6 +26,8 @@ library
     , Strictness.Fold
     , Streaming.Experimental.Feeder
     , Streaming.Experimental.Predator
+    , Extensible.Eff
+    , Extensible.NamedEff
   -- other-modules:
   -- other-extensions:
   ghc-options: -Wall
@@ -39,6 +41,8 @@ library
     , transformers
     , mtl
     , monad-skeleton
+    , extensible
+    , extensible-skeleton
   default-language:    Haskell2010
 
 benchmark benchmark
