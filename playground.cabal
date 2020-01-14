@@ -28,6 +28,8 @@ library
     , Streaming.Experimental.Predator
     , Extensible.Eff
     , Extensible.NamedEff
+    , Extensible.GetOpt
+    , Extensible.ReusableField
   -- other-modules:
   -- other-extensions:
   ghc-options: -Wall
@@ -43,6 +45,7 @@ library
     , monad-skeleton
     , extensible
     , extensible-skeleton
+    , lens
   default-language:    Haskell2010
 
 benchmark benchmark
